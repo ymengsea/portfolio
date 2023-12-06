@@ -251,3 +251,156 @@ a, a:link, a:hover, a:active, a:visited{
         margin-bottom: 10px
     }
 }
+
+
+/* about */
+.about{
+    padding: 50px 0 100px;
+}
+.about-content{
+    padding-top: 100px;
+}
+.single-about-add-info{
+    margin: 35px 0;
+}
+.single-about-img{
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.30);
+    margin-left: 35px;
+}
+.about-list-icon{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    background: #1f2c6c;
+    width: 500px;
+}
+.about-list-icon ul li a i{
+    margin-left: 6px;
+}
+.single-about-txt p{
+    font-size: 16px;
+    color: #999fb3;
+    padding: 35px 0 43px;
+    border-bottom: 1px solid #999fb3;
+}
+
+/* nav bar hover effect */
+.nav-hover{
+    transition: 0.1s;
+}
+.nav-hover:hover{
+    color: #b636ff;
+}
+
+/* card-image-effect  */
+
+.wrapper {
+    text-align: center;
+  }
+  .card-contain {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .child {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  .image-card-tex {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .card-contain:hover .child,
+  .card-contain:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .card-contain:hover .child:before,
+  .card-contain:focus .child:before {
+    display: block;
+  }
+  .card-contain:hover span,
+  .card-contain:focus span {
+    display: block;
+  }
+  .child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+  }
+  /* @media screen and (max-width: 960px) {
+    .card-contain {
+      width: 100%;
+      margin: 20px 0;
+    }
+    .wrapper {
+      padding: 20px;
+    }
+  } */
+
+  /* icon in about section  */
+  .about-icon:hover{
+    color:#b636ff;
+  }
+
+  /* this is card profile style  */
+  .zoom-f-m {
+    position: relative;
+    width: 100%;
+    }
+    .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #d92cf9;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+    }
+    .overlaytext{
+    color: white;
+    }
+    .zoom-f-m:hover .overlay {
+    transform: scale(1);
+    }
+    .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
